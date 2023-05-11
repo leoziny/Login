@@ -1,0 +1,152 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body, html{
+  height: 100%;
+}
+
+body{
+  background-image: linear-gradient(to bottom, #4A427C 20%,  #C16747);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form{
+  position: relative;
+  background-color: white;
+  border-radius: 10px;
+  width: 500px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #747474;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+form > h3{
+  margin-bottom: 30px;
+}
+
+span{
+  position: absolute;
+  top: 180px;
+  font-weight: bolder;
+}
+
+.s-m{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  
+}
+
+
+.s-m a {
+  
+  display: inline-flex;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #CED4DA;
+  margin: 0 6px;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  
+  transition: all 0.3s ease;
+
+}
+.s-m a:hover{
+  transform: rotate(30deg);
+  border: solid 1px black;
+}
+.s-m a > i {
+  transform: scale(1.6);
+  transition: all 0.2s ease;
+
+  
+}
+.s-m a > i:hover{
+  
+  transform: scale(1.9);
+  
+
+}
+.s-m a:nth-child(1):hover{
+  text-decoration: none;
+  color: #1877F2;
+
+
+
+}
+.s-m a:nth-child(2):hover{
+  text-decoration: none;
+  color: #1a73e8;
+}
+
+.s-m a:nth-child(3):hover{
+  text-decoration: none;
+  color: black;
+}
+
+
+.input{
+  width: 80%;
+  padding: 12px;
+  margin: 10px;
+  border-radius: 6px;
+  outline: none;
+  border: 1px solid #CED4DA;
+  font-weight: lighter;
+}
+
+.checkbox{
+  width: 100%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 95px;
+}
+
+#lembrar{
+  margin-right: 160px;
+}
+
+#check{
+  transform: scale(1.2);
+  margin-right: 10px;
+  border: 4px solid gray;
+}
+
+.button{
+  background-color: #fc6128;
+  width: 80%;
+  height: 40px;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.747);
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 20px;
+  transition: 0.2s ease;
+}
+
+.button:hover{
+  background-color: #b6461d;
+}
+
+a{
+  color: #747474;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
